@@ -12,6 +12,7 @@ function deleteTown() {
         if (option.textContent == townName) {
             removed = true;
             option.remove();
+            console.log("deleted")
         }
     }
     if (removed)
